@@ -37,7 +37,8 @@ jobs:
     - name: Test with pytest
       run: |
         pwd
+        ls
         echo "current Path is"
         echo pwd
-        pytest Untitled/test_sudoku.py
+        pytest test_sudoku.py
 
