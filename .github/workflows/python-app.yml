@@ -26,11 +26,9 @@ jobs:
     - name: Install dependencies
       run: |        
         pip install pipenv        
-        pipenv install        
-        
+        pipenv install              
 
     - name: Test with pytest
-      run: |
-        pipenv shell        
-        pytest test_sudoku.py
+      run: |            
+        pipenv run pytest test_sudoku.py
 
