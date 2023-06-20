@@ -39,5 +39,5 @@ jobs:
         pwd
         echo "current Path is"
         echo pwd
-        pytest test_sudoku.py
+        pytest Untitled/test_sudoku.py
 
