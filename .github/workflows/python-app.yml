@@ -31,5 +31,5 @@ jobs:
 
     - name: Test with pytest
       run: |        
-        pipenv pytest test_sudoku.py
+        pipenv run pytest test_sudoku.py
 
