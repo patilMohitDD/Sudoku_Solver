@@ -54,7 +54,5 @@ async def input_sudoku(matrix: SudokuMatrix, request:Request):
         "mssg": "Stored Successfully"
     }
 
-
-
-
-
+def square_area(x:int) -> int:
+    return x*x

@@ -2,6 +2,10 @@
 Sudoku Solver by Algorithm Using fastAPI web FrameWork and Python as Back-End Language
 '''
 
-1. Install all the dependencies.
+1. To Start the Virtual Enviroment use $ pipenv shell
 
-2. To start with I have store 4-5 Examples of sudoku which will be solve by our Algorithm in store.py
+2. Install all the dependencies store in the pipefile use $ pipenv install
+
+3. To Run server on Local Host use $ uvicorn main:app
+
+3. To start with I have store 4-5 Examples of sudoku which will be solve by our Algorithm in store.py
