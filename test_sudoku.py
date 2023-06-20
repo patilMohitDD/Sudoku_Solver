@@ -1,8 +1,21 @@
 from main import square_area
+from json import loads
 
-# def testMatrixLength(martix, expected_length) -> int:
-#     assert len(matrix) == expected_length
 
-def testArea():
-    assert square_area(5) == 25
+db = {}
+with open('db.json') as f:
+    db = loads(f.read())
+
+
+def testMatrixLength():
+    for values in db.values():
+        assert len(values) == 9
+
+def testTypeOfKeys():
+    for keys in db.keys():
+        assert type(keys) == str
+
+
+# def testArea():
+#     assert square_area(5) == 25
     

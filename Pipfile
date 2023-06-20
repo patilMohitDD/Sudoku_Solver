@@ -9,6 +9,7 @@ fastapi = "*"
 typing = "*"
 pydantic = "*"
 psycopg2-binary = "*"
+pytest = "*"
 
 [dev-packages]
 
